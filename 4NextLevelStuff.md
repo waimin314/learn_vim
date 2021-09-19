@@ -32,9 +32,9 @@ Move the cursor to `⤋` and type `.`
 
 Vim has two search operations `/` and `?`
 
-Type in `/{entry}` and then `<Enter>` will search the `{entry}` **forward** from current position.
+Type in `/{entry}` and then `<Enter>` will search the `{entry}` **forward** from the current position.
 
-Type in `?{entry}` and then `<Enter>` will search the `{entry}` **backward** from current position.
+Type in `?{entry}` and then `<Enter>` will search the `{entry}` **backward** from the current position.
 
 After typing search `{entry}`, use `n` to go to the **next** occurrence of the `{entry}` and `N` to go to the **previous** occurrence of the `{entry}`
 
