@@ -123,3 +123,41 @@ Notice how the phrase was pasted after the current position `llook ...`. If you 
 2. `C` equals to `D` + insert at the current position
 3. `Y` copy the whole line
 4. `P` Put (Paste) before the current position or current line
+
+
+## Misc
+
+Remember how we use `a` above in `daw` to delete a word regardless of where the cursor position is in a word? Well, there are a few special ones just like it.
+
+### `i` (Inner)
+
+Put the cursor at the arrow and type `ci"`. The word inside the double quotes will be deleted and you will be in insert mode. This could be quite handy as it works for `()` `{}` `''` as well.
+
+
+**Before** 
+
+```
+            ⤋
+["First", "Second", "Third]
+```
+
+**After**
+
+```
+["First", "|", "Third]
+```
+
+Type  `ca"` will also delete the quotes as well as the spaces around the quotes.
+
+**Before** 
+
+```
+            ⤋
+["First", "Second", "Third]
+```
+
+**After**
+
+```
+["First",|, "Third]
+```
