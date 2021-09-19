@@ -22,6 +22,10 @@
 
 `T{character}` Move the cursor to **just before** the **previous** occurrence of the character **in the current line**
 
+`;`  after `f` `F` `t` `T` will go to the **next** occurrence of the {character}
+
+`,`  after `f` `F` `t` `T` will go to the **previous** occurrence of the {character}
+
 ## Operators
 
 `d` Delete

@@ -83,3 +83,9 @@ Sometimes the reason is you're stupid and make bad decisions.”
 Sometimes the reason is you're stupid and make bad decisions.”
 - Marion G. Harmon
 ```
+
+## Misc.
+
+`;`  after `f` `F` `t` `T` will go to the **next** occurrence of the {character}
+
+`,`  after `f` `F` `t` `T` will go to the **previous** occurrence of the {character}
