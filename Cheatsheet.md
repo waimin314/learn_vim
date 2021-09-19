@@ -48,6 +48,14 @@
 
 `x` Delete one character
 
+`.` Repeat the last Edit operation
+
+## Search
+
+`/{entry}` + `<Enter>` will search the `{entry}` **forward** from the current position.
+
+`?{entry}` + `<Enter>` will search the `{entry}` **backward** from the current position.
+
 ## Useful patterns ( Operator + Count + Motion)
 
 `d{number}w` delete {number} of words
