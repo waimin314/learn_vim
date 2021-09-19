@@ -11,7 +11,7 @@
 
 `2` `d` `w` = `d` `2` `w` = delete 2 words from current position. Put the cursor at `⤋` and type `2dw` or `d2w`. I prefer `d2w` as it sounds like `delete 2 words`.
 
-**Before**
+**Before** `d2w`
 
 ```
       ⤋
@@ -30,7 +30,7 @@ The one you have in hand is the opportunity.
 
 Note that `d2w` will delete from the current position. If your cursor is in the middle of a word, it will delete the current position to the end of the word and also the subsequent word.
 
-**Before**
+**Before** `d2w`
 
 ```
                      ⤋
@@ -50,7 +50,7 @@ The one you have in hand is the opportunity.
 This could be inconvenience as normally you will want to delete the whole word instead of partially. There are two options to fix this. One is to make sure the cursor is at the beginning of the word by typing `b` before deleting it. Another is to use `a` operator.
 `daw` (delete a word) will delete the word of the current position.
 
-**Before**
+**Before** `daw`
 
 ```
                      ⤋
@@ -73,7 +73,7 @@ Most of the the time you might want to replace a word instead of just deleting i
 
 Try typing `cw` and type "test". The word `next` is now replaced with `test`.
 
-**Before** 
+**Before** `cw`
 
 ```
                    ⤋
@@ -96,7 +96,7 @@ As the title implies, `y` and `p` are copy and paste operators. As you might hav
 
 Type `yf.`, the phrase `look for the next opportunity.` will be copied. You can paste it by simply typing `p`. 
 
-**Before** 
+**Before** `yf.`
 
 ```
       ⤋
@@ -133,7 +133,7 @@ Remember how we use `a` above in `daw` to delete a word regardless of where the 
 
 Put the cursor at the arrow and type `ci"`. The word inside the double quotes will be deleted and you will be in insert mode. This could be quite handy as it works for `()` `{}` `''` `[]` and html tags e.g `<li> </li>` as well.
 
-**Before** 
+**Before** `ci"`
 
 ```
             ⤋
@@ -148,7 +148,7 @@ Put the cursor at the arrow and type `ci"`. The word inside the double quotes wi
 
 Type  `ca"` will also delete the quotes as well as the spaces around the quotes.
 
-**Before** 
+**Before** `ca"`
 
 ```
             ⤋
@@ -163,10 +163,9 @@ Type  `ca"` will also delete the quotes as well as the spaces around the quotes.
 
 ## `r` replace one character and `x` delete one character
 
+Type `r` place your cursor at the arrow and type `ra`. It will replace `e` with `a` without leaving normal mode.
 
-type `r` place your cursor at the arrow and type `ra`. It will replace `e` with `a` without leaving normal mode.
-
-**Before** 
+**Before** `ra`
 
 ```
             ⤋
@@ -176,12 +175,13 @@ type `r` place your cursor at the arrow and type `ra`. It will replace `e` with 
 **After**
 
 ```
+            ⤋
 ["First", "Sacond", "Third]
 ```
 
 Typing `x` will delete the character in current position.
 
-**Before** 
+**Before** `x`
 
 ```
             ⤋

@@ -19,7 +19,7 @@ Then put the cursor right below the arrow and type `i`.
 The cursor will be inserted between *r* and *s* like this `r|s`.
 You may do your typing like how you normally do in normal text/code editors.
 
-### Before
+### Before `i`
 
 ```
      ⤋
@@ -34,14 +34,21 @@ You may do your typing like how you normally do in normal text/code editors.
 
 `a`
 
-Similar to `i`, but puts the cursor **after** the current position. 
+Similar to `i`, but puts the cursor **after** the current position.
 Then put the cursor right below the arrow and type `a`.
 The cursor will be inserted between *s* and *t* like this `s|t`.
 You may do your typing like how you normally do in normal text/code editors.
 
+**Before** `a`
+
 ```
      ⤋
 ["First", "Second", "Third]
+```
+
+**After**
+```
+["Firs|t", "Second", "Third]
 ```
 
 `o`
@@ -49,7 +56,7 @@ You may do your typing like how you normally do in normal text/code editors.
 Adds an empty line below the current line and insert cursor at the empty line.
 Put the cursor anywhere in and type `o`.
 
-**Before**
+**Before** `o`
 
 ```
 ["First", "Second", "Third]
@@ -68,7 +75,7 @@ Inserts the cursor **at the beginning** of the current **line**.
 Make sure you are in normal mode and try typing `I`.
 The cursor should be inserted before the first `[` like this `|[`
 
-**Before**
+**Before** `I`
 
 ```
      ⤋
@@ -85,7 +92,7 @@ The cursor should be inserted before the first `[` like this `|[`
 
 Like `I` but inserts the cursor at the end of the current line.
 
-**Before**
+**Before** `A`
 
 ```
 ["First", "Second", "Third]
@@ -101,7 +108,7 @@ Like `I` but inserts the cursor at the end of the current line.
 
 Similar to `o` but adds the empty line **above** the current line.
 
-**Before**
+**Before** `O`
 
 ```
 ["First", "Second", "Third]
@@ -113,6 +120,5 @@ Similar to `o` but adds the empty line **above** the current line.
 |
 ["First", "Second", "Third]
 ```
-
 
 ## Visual (Select)
