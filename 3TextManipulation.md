@@ -5,7 +5,7 @@
 1. `d` Delete
 2. `c` Change (Delete + insert)
 3. `y` Yank (Copy)
-4. `p` Put (Paste) after the current position or current line
+4. `p` Put (Paste) after the current position or the current line
 
 ## Count + Operator + Motion
 
