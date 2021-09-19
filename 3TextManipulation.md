@@ -131,8 +131,7 @@ Remember how we use `a` above in `daw` to delete a word regardless of where the 
 
 ### `i` (Inner)
 
-Put the cursor at the arrow and type `ci"`. The word inside the double quotes will be deleted and you will be in insert mode. This could be quite handy as it works for `()` `{}` `''` as well.
-
+Put the cursor at the arrow and type `ci"`. The word inside the double quotes will be deleted and you will be in insert mode. This could be quite handy as it works for `()` `{}` `''` `[]` and html tags e.g `<li> </li>` as well.
 
 **Before** 
 
@@ -160,4 +159,37 @@ Type  `ca"` will also delete the quotes as well as the spaces around the quotes.
 
 ```
 ["First",|, "Third]
+```
+
+## `r` replace one character and `x` delete one character
+
+
+type `r` place your cursor at the arrow and type `ra`. It will replace `e` with `a` without leaving normal mode.
+
+**Before** 
+
+```
+            ⤋
+["First", "Second", "Third]
+```
+
+**After**
+
+```
+["First", "Sacond", "Third]
+```
+
+Typing `x` will delete the character in current position.
+
+**Before** 
+
+```
+            ⤋
+["First", "Second", "Third]
+```
+
+**After**
+
+```
+["First", "Scond", "Third]
 ```
