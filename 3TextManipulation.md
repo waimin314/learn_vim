@@ -193,3 +193,13 @@ Typing `x` will delete the character in current position.
 ```
 ["First", "Scond", "Third]
 ```
+
+## doubling the operators
+
+We have learnt that the operators behave differently when using the Capitalized version of them. Some also have another alternate behavior when typing two of the same operator.
+
+`dd` Delete the current line
+
+`cc` Change the current line
+
+`yy` Copy the current line ( Same as `Y`)

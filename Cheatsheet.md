@@ -44,6 +44,12 @@
 
 `P` Put (Paste) before the current position or current line
 
+`dd` Delete the current line
+
+`cc` Change the current line
+
+`yy` Copy the current line ( Same as `Y`)
+
 `r` Replace one character
 
 `x` Delete one character
