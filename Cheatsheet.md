@@ -62,6 +62,9 @@
 
 `?{entry}` + `<Enter>` will search the `{entry}` **backward** from the current position.
 
+`n` go to the **next** occurrence of the `{entry}` 
+
+`N` to go to the **previous** occurrence of the `{entry}`
 ## Useful patterns ( Operator + Count + Motion)
 
 `d{number}w` delete {number} of words
