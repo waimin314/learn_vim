@@ -21,20 +21,57 @@ cursor here
 ["crowd", "presence", "serious", "puzzle", "base"]
 ["ink", "thread", "pure", "slippery", "around"]
 ["silent", "curl", "stain", "brain", "such"]
-["crowd", "presence", "serious", "puzzle", "base"]
 ["ink", "thread", "pure", "slippery", "around"]
+["crowd", "presence", "serious", "puzzle", "base"]
 ```
 
-
 Adding a number `n` in front of the `h j k l` makes the keys repeat by `n` times. For example, put the cursor at
-`↓` at `["start",...]` and type `10j`. The cursor will move to 10 lines below.
+`↓` and type `10j`. The cursor will move to 10 lines below.
 
 
-### Advance Navigation ( w W b B e E % {} )
+### Fast Motion ( w W b B e E % {} )
 
-helloVimWord{()}
-he.ll;,:vi!@
+`w` Move to the start of the next word. (punctuation considered words)
 
+**Before** `w`
+```
+    ↓
+["silent", "curl", "stain", "brain", "such"]
+```
+
+**After**
+```
+        ↓
+["silent", "curl", "stain", "brain", "such"]
+```
+
+`W` Move to the start of the **next** word. (spaces is the separator)
+
+**Before** `W`
+```
+    ↓
+["silent", "curl", "stain", "brain", "such"]
+```
+
+**After**
+```
+           ↓
+["silent", "curl", "stain", "brain", "such"]
+```
+
+You can type `{number}w` or `{number}W` to jump to `{number}` of words. Or you can just repeatedly type `w` or `W` to jump word by word.
+
+**Before** `WWW`
+```
+    ↓
+["silent", "curl", "stain", "brain", "such"]
+```
+
+**After**
+```
+                            ↓
+["silent", "curl", "stain", "brain", "such"]
+```
 
 ## Faster motion
 
