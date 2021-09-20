@@ -22,7 +22,7 @@ You may do your typing like how you normally do in normal text/code editors.
 ### Before `i`
 
 ```
-     ⤋
+     ↓
 ["First", "Second", "Third]
 ```
 
@@ -42,7 +42,7 @@ You may do your typing like how you normally do in normal text/code editors.
 **Before** `a`
 
 ```
-     ⤋
+     ↓
 ["First", "Second", "Third]
 ```
 
@@ -78,7 +78,7 @@ The cursor should be inserted before the first `[` like this `|[`
 **Before** `I`
 
 ```
-     ⤋
+     ↓
 ["First", "Second", "Third]
 ```
 

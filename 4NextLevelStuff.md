@@ -4,7 +4,7 @@
 
 **Before** `ci"` and `apple` and type `<Esc>`
 ``` 
-    ⤋
+    ↓
 ["First", "Second", "Third"]
 ```
 
@@ -13,12 +13,12 @@
 ["apple", "Second", "Third"]
 ```
 
-Move the cursor to `⤋` and type `.`
+Move the cursor to `↓` and type `.`
 
 **Before** `.`
 
 ``` 
-            ⤋
+            ↓
 ["apple", "Second", "Third"]
 ```
 
