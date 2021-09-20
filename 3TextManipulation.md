@@ -9,12 +9,12 @@
 
 ## Count + Operator + Motion
 
-`2` `d` `w` = `d` `2` `w` = delete 2 words from current position. Put the cursor at `⤋` and type `2dw` or `d2w`. I prefer `d2w` as it sounds like `delete 2 words`.
+`2` `d` `w` = `d` `2` `w` = delete 2 words from current position. Put the cursor at `↓` and type `2dw` or `d2w`. I prefer `d2w` as it sounds like `delete 2 words`.
 
 **Before** `d2w`
 
 ```
-      ⤋
+      ↓
 Don’t look for the next opportunity.
 The one you have in hand is the opportunity. 
 - Paul Arden
@@ -33,7 +33,7 @@ Note that `d2w` will delete from the current position. If your cursor is in the 
 **Before** `d2w`
 
 ```
-                     ⤋
+                     ↓
 Don’t look for the next opportunity.
 The one you have in hand is the opportunity. 
 - Paul Arden
@@ -53,7 +53,7 @@ This could be inconvenience as normally you will want to delete the whole word i
 **Before** `daw`
 
 ```
-                     ⤋
+                     ↓
 Don’t look for the next opportunity.
 The one you have in hand is the opportunity. 
 - Paul Arden
@@ -76,7 +76,7 @@ Try typing `cw` and type "test". The word `next` is now replaced with `test`.
 **Before** `cw`
 
 ```
-                   ⤋
+                   ↓
 Don’t look for the next opportunity.
 The one you have in hand is the opportunity. 
 - Paul Arden
@@ -99,7 +99,7 @@ Type `yf.`, the phrase `look for the next opportunity.` will be copied. You can 
 **Before** `yf.`
 
 ```
-      ⤋
+      ↓
 Don’t look for the next opportunity.
 The one you have in hand is the opportunity. 
 - Paul Arden
@@ -136,7 +136,7 @@ Put the cursor at the arrow and type `ci"`. The word inside the double quotes wi
 **Before** `ci"`
 
 ```
-            ⤋
+            ↓
 ["First", "Second", "Third]
 ```
 
@@ -151,7 +151,7 @@ Type  `ca"` will also delete the quotes as well as the spaces around the quotes.
 **Before** `ca"`
 
 ```
-            ⤋
+            ↓
 ["First", "Second", "Third]
 ```
 
@@ -168,14 +168,14 @@ Type `r` place your cursor at the arrow and type `ra`. It will replace `e` with 
 **Before** `ra`
 
 ```
-            ⤋
+            ↓
 ["First", "Second", "Third]
 ```
 
 **After**
 
 ```
-            ⤋
+            ↓
 ["First", "Sacond", "Third]
 ```
 
@@ -184,7 +184,7 @@ Typing `x` will delete the character in current position.
 **Before** `x`
 
 ```
-            ⤋
+            ↓
 ["First", "Second", "Third]
 ```
 
