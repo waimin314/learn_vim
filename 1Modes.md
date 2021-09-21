@@ -17,7 +17,7 @@ Inserts the cursor **before** the current position.
 Make sure you are in **normal** mode by typing `Esc`.
 Then put the cursor right below the arrow and type `i`.
 The cursor will be inserted between *r* and *s* like this `r|s`.
-You may do your typing like how you normally do in normal text/code editors.
+After that you may proceed to type like how you normally do in the other normal text/code editors.
 
 ### Before `i`
 
