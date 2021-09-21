@@ -114,6 +114,49 @@ You can type `{number}w` or `{number}W` to jump to `{number}` of words. Or you c
 [{"silent"}, "curl", "stain", "brain", "such"]
 ```
 
+`}` Move to the next empty line
+
+**Before** `}`
+```
+          ↓
+  const [date, setDate] = useState(new Date());
+  const [bookingsOfDate, setBookingsOfDate] = useState([]);
+  const [selectedSlot, setSelectedSlot] = useState('');
+  const currentDate = new Date();
+
+  useEffect(() => {
+    const fetchCurMonth = async () => {
+      await bookingService.getBookingsByMonth(
+        currentDate.getMonth(),
+        currentDate.getFullYear()
+      );
+      setBookingsOfDate(bookingService.getBookingsByDate(new Date()));
+    };
+    fetchCurMonth();
+  }, [])
+```
+
+**After**
+```
+  const [date, setDate] = useState(new Date());
+  const [bookingsOfDate, setBookingsOfDate] = useState([]);
+  const [selectedSlot, setSelectedSlot] = useState('');
+↓  const currentDate = new Date();
+
+  useEffect(() => {
+    const fetchCurMonth = async () => {
+      await bookingService.getBookingsByMonth(
+        currentDate.getMonth(),
+        currentDate.getFullYear()
+      );
+      setBookingsOfDate(bookingService.getBookingsByDate(new Date()));
+    };
+    fetchCurMonth();
+  }, [])
+```
+
+`{` Move to the previous empty line
+
 ## Faster motion
 
 `f{character}`
