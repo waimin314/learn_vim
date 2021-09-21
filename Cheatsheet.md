@@ -73,6 +73,8 @@
 `n` go to the **next** occurrence of the `{entry}` 
 
 `N` to go to the **previous** occurrence of the `{entry}`
+
+`*` go to the next occurrence of the current word
 ## Useful patterns ( Operator + Count + Motion)
 
 `d{number}w` delete {number} of words

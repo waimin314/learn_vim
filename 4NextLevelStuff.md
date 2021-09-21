@@ -38,6 +38,7 @@ Type in `?{entry}` and then `<Enter>` will search the `{entry}` **backward** fro
 
 After typing search `{entry}`, use `n` to go to the **next** occurrence of the `{entry}` and `N` to go to the **previous** occurrence of the `{entry}`
 
+`*` will go to the next occurrence of the current word
 ## Plugins
 
 ### Easymotion
