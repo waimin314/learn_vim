@@ -14,6 +14,14 @@
 
 ## Motion
 
+`w` Move to the start of the next word. (punctuation considered words)
+
+`W` Move to the start of the **next** word. (spaces is the separator)
+
+`b` Move to the start of the **current or previous** word. (punctuation considered words)
+
+`B` Move to the start of the **current or previous** word. (spaces is the separator)
+
 `f{character}` Move the cursor to the **next** occurrence of the character **in the current line**
 
 `F{character}` Move the cursor to the **previous** occurrence of the character **in the current line**

@@ -28,7 +28,6 @@ cursor here
 Adding a number `n` in front of the `h j k l` makes the keys repeat by `n` times. For example, put the cursor at
 `↓` and type `10j`. The cursor will move to 10 lines below.
 
-
 ### Fast Motion ( w W b B e E % {} )
 
 `w` Move to the start of the next word. (punctuation considered words)
@@ -70,6 +69,34 @@ You can type `{number}w` or `{number}W` to jump to `{number}` of words. Or you c
 **After**
 ```
                             ↓
+["silent", "curl", "stain", "brain", "such"]
+```
+
+`b` Move to the start of the **current or previous** word. (punctuation considered words)
+
+**Before** `b`
+```
+               ↓
+["silent", "curl", "stain", "brain", "such"]
+```
+
+**After**
+```
+            ↓
+["silent", "curl", "stain", "brain", "such"]
+```
+
+`B` Move to the start of the **current or previous** word. (spaces is the separator)
+
+**Before** `2B`
+```
+                        ↓
+["silent", "curl", "stain", "brain", "such"]
+```
+
+**After**
+```
+           ↓
 ["silent", "curl", "stain", "brain", "such"]
 ```
 
