@@ -122,3 +122,55 @@ Similar to `o` but adds the empty line **above** the current line.
 ```
 
 ## Visual (Select)
+
+`v` Visual mode (Select by character)
+
+**Before** `v` `3l`
+```
+          ↓
+["start", "curl", "stain", "brain", "such"]
+```
+
+**After** (the characters between `→ ←` are selected )
+
+```
+["start", →"cur←l", "stain", "brain", "such"]
+```
+
+`V` Visual mode (Select by line)
+
+**Before** `V` `4j`
+```
+          ↓
+["start", "curl", "stain", "brain", "such"]
+["crowd", "presence", "serious", "puzzle", "base"]
+["ink", "thread", "pure", "slippery", "around"]
+["silent", "curl", "stain", "brain", "such"]
+["crowd", "presence", "serious", "puzzle", "base"]
+["ink", "thread", "pure", "slippery", "around"]
+["silent", "curl", "stain", "brain", "such"]
+["crowd", "presence", "serious", "puzzle", "base"]
+["ink", "thread", "pure", "slippery", "around"]
+["silent", "curl", "stain", "brain", "such"]
+["ink", "thread", "pure", "slippery", "around"]
+["crowd", "presence", "serious", "puzzle", "base"]
+```
+
+**After** (the lines between `→ ←` are selected )
+
+```
+→["start", "curl", "stain", "brain", "such"]
+["crowd", "presence", "serious", "puzzle", "base"]
+["ink", "thread", "pure", "slippery", "around"]
+["silent", "curl", "stain", "brain", "such"]
+["crowd", "presence", "serious", "puzzle", "base"]←
+["ink", "thread", "pure", "slippery", "around"]
+["silent", "curl", "stain", "brain", "such"]
+["crowd", "presence", "serious", "puzzle", "base"]
+["ink", "thread", "pure", "slippery", "around"]
+["silent", "curl", "stain", "brain", "such"]
+["ink", "thread", "pure", "slippery", "around"]
+["crowd", "presence", "serious", "puzzle", "base"]
+```
+
+`Ctrl+V` Visual mode (Select in Rectangle)

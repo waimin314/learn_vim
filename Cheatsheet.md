@@ -12,6 +12,14 @@
 
 `O` Similar to `o` but adds the empty line **above** the current line
 
+## Visual Mode
+
+`v` Visual mode (Select by character)
+
+`V` Visual mode (Select by line)
+
+`Ctrl+V` Visual mode (Select in Rectangle)
+
 ## Motion
 
 `w` Move to the start of the next word. (punctuation considered words)
