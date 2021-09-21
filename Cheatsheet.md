@@ -22,6 +22,8 @@
 
 `B` Move to the start of the **current or previous** word. (spaces is the separator)
 
+`%` Go to the matching ([{}])
+
 `f{character}` Move the cursor to the **next** occurrence of the character **in the current line**
 
 `F{character}` Move the cursor to the **previous** occurrence of the character **in the current line**

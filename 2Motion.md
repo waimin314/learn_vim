@@ -100,6 +100,20 @@ You can type `{number}w` or `{number}W` to jump to `{number}` of words. Or you c
 ["silent", "curl", "stain", "brain", "such"]
 ```
 
+`%` Go to the matching ([{}])
+
+**Before** `%`
+```
+          ↓
+[{"silent"}, "curl", "stain", "brain", "such"]
+```
+
+**After**
+```
+ ↓
+[{"silent"}, "curl", "stain", "brain", "such"]
+```
+
 ## Faster motion
 
 `f{character}`
