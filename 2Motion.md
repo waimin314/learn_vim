@@ -2,13 +2,15 @@
 
 ## Basic Navigation ( h j k l )
 
+```text
           ↑ 
     ← h j k l →
         ↓
+```
 
 h j k l acts as arrow keys. Try navigating the following using just the `h j k l` keys
 
-```
+```text
 cursor here
 ↓
 ["start", "curl", "stain", "brain", "such"]
@@ -33,13 +35,15 @@ Adding a number `n` in front of the `h j k l` makes the keys repeat by `n` times
 `w` Move to the start of the next word. (punctuation considered words)
 
 **Before** `w`
-```
+
+```text
     ↓
 ["silent", "curl", "stain", "brain", "such"]
 ```
 
 **After**
-```
+
+```text
         ↓
 ["silent", "curl", "stain", "brain", "such"]
 ```
@@ -47,13 +51,15 @@ Adding a number `n` in front of the `h j k l` makes the keys repeat by `n` times
 `W` Move to the start of the **next** word. (spaces is the separator)
 
 **Before** `W`
-```
+
+```text
     ↓
 ["silent", "curl", "stain", "brain", "such"]
 ```
 
 **After**
-```
+
+```text
            ↓
 ["silent", "curl", "stain", "brain", "such"]
 ```
@@ -61,13 +67,15 @@ Adding a number `n` in front of the `h j k l` makes the keys repeat by `n` times
 You can type `{number}w` or `{number}W` to jump to `{number}` of words. Or you can just repeatedly type `w` or `W` to jump word by word.
 
 **Before** `WWW`
-```
+
+```text
     ↓
 ["silent", "curl", "stain", "brain", "such"]
 ```
 
 **After**
-```
+
+```text
                             ↓
 ["silent", "curl", "stain", "brain", "such"]
 ```
@@ -75,13 +83,15 @@ You can type `{number}w` or `{number}W` to jump to `{number}` of words. Or you c
 `b` Move to the start of the **current or previous** word. (punctuation considered words)
 
 **Before** `b`
-```
+
+```text
                ↓
 ["silent", "curl", "stain", "brain", "such"]
 ```
 
 **After**
-```
+
+```text
             ↓
 ["silent", "curl", "stain", "brain", "such"]
 ```
@@ -89,13 +99,15 @@ You can type `{number}w` or `{number}W` to jump to `{number}` of words. Or you c
 `B` Move to the start of the **current or previous** word. (spaces is the separator)
 
 **Before** `2B`
-```
+
+```text
                         ↓
 ["silent", "curl", "stain", "brain", "such"]
 ```
 
 **After**
-```
+
+```text
            ↓
 ["silent", "curl", "stain", "brain", "such"]
 ```
@@ -103,13 +115,15 @@ You can type `{number}w` or `{number}W` to jump to `{number}` of words. Or you c
 `%` Go to the matching ([{}])
 
 **Before** `%`
-```
+
+```text
           ↓
 [{"silent"}, "curl", "stain", "brain", "such"]
 ```
 
 **After**
-```
+
+```text
  ↓
 [{"silent"}, "curl", "stain", "brain", "such"]
 ```
@@ -117,7 +131,8 @@ You can type `{number}w` or `{number}W` to jump to `{number}` of words. Or you c
 `}` Move to the next empty line
 
 **Before** `}`
-```
+
+```text
           ↓
   const [date, setDate] = useState(new Date());
   const [bookingsOfDate, setBookingsOfDate] = useState([]);
@@ -137,7 +152,8 @@ You can type `{number}w` or `{number}W` to jump to `{number}` of words. Or you c
 ```
 
 **After**
-```
+
+```js
   const [date, setDate] = useState(new Date());
   const [bookingsOfDate, setBookingsOfDate] = useState([]);
   const [selectedSlot, setSelectedSlot] = useState('');
@@ -166,7 +182,8 @@ Move the cursor to the **next** occurrence of the character **in the line curren
 Put the cursor at the `↓` and type `fs`. The cursor will move to the first `s`.
 
 **Before** `fs`
-```
+
+```text
     ↓
 “Everything happens for a reason. 
 Sometimes the reason is you're stupid and make bad decisions.”
@@ -174,7 +191,8 @@ Sometimes the reason is you're stupid and make bad decisions.”
 ```
 
 **After**
-```
+
+```text
                   ↓
 “Everything happens for a reason. 
 Sometimes the reason is you're stupid and make bad decisions.”
@@ -186,7 +204,8 @@ Sometimes the reason is you're stupid and make bad decisions.”
 Move the cursor to the **previous** occurrence of the character **in the line current**.
 
 **Before** `Fa`
-```
+
+```text
                         ↓
 “Everything happens for a reason. 
 Sometimes the reason is you're stupid and make bad decisions.”
@@ -194,7 +213,8 @@ Sometimes the reason is you're stupid and make bad decisions.”
 ```
 
 **After**
-```
+
+```text
              ↓
 “Everything happens for a reason. 
 Sometimes the reason is you're stupid and make bad decisions.”
@@ -206,7 +226,8 @@ Sometimes the reason is you're stupid and make bad decisions.”
 Move the cursor to **just before** the **next** occurrence of the character **in the line current**.
 
 **Before** `ts`
-```
+
+```text
     ↓
 “Everything happens for a reason. 
 Sometimes the reason is you're stupid and make bad decisions.”
@@ -214,7 +235,8 @@ Sometimes the reason is you're stupid and make bad decisions.”
 ```
 
 **After**
-```
+
+```text
                  ↓
 “Everything happens for a reason. 
 Sometimes the reason is you're stupid and make bad decisions.”
@@ -226,7 +248,8 @@ Sometimes the reason is you're stupid and make bad decisions.”
 Yeah, you guessed it. It will move the cursor to **just before** the **previous** occurrence of the character **in the line current**.
 
 **Before** `Ta`
-```
+
+```text
                         ↓
 “Everything happens for a reason. 
 Sometimes the reason is you're stupid and make bad decisions.”
@@ -234,7 +257,8 @@ Sometimes the reason is you're stupid and make bad decisions.”
 ```
 
 **After**
-```
+
+```text
               ↓
 “Everything happens for a reason. 
 Sometimes the reason is you're stupid and make bad decisions.”

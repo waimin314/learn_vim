@@ -21,14 +21,14 @@ After that you may proceed to type like how you normally do in the other normal 
 
 ### Before `i`
 
-```
+```text
      ↓
 ["First", "Second", "Third]
 ```
 
 ### After
 
-```
+```text
 ["Fir|st", "Second", "Third]
 ```
 
@@ -41,13 +41,14 @@ You may do your typing like how you normally do in normal text/code editors.
 
 **Before** `a`
 
-```
+```text
      ↓
 ["First", "Second", "Third]
 ```
 
 **After**
-```
+
+```text
 ["Firs|t", "Second", "Third]
 ```
 
@@ -58,13 +59,13 @@ Put the cursor anywhere in and type `o`.
 
 **Before** `o`
 
-```
+```text
 ["First", "Second", "Third]
 ```
 
 **After**
 
-```
+```text
 ["First", "Second", "Third]
 |
 ```
@@ -77,14 +78,14 @@ The cursor should be inserted before the first `[` like this `|[`
 
 **Before** `I`
 
-```
+```text
      ↓
 ["First", "Second", "Third]
 ```
 
 **After**
 
-```
+```text
 |["First", "Second", "Third]
 ```
 
@@ -94,13 +95,13 @@ Like `I` but inserts the cursor at the end of the current line.
 
 **Before** `A`
 
-```
+```text
 ["First", "Second", "Third]
 ```
 
 **After**
 
-```
+```text
 ["First", "Second", "Third]|
 ```
 
@@ -110,13 +111,13 @@ Similar to `o` but adds the empty line **above** the current line.
 
 **Before** `O`
 
-```
+```text
 ["First", "Second", "Third]
 ```
 
 **After**
 
-```
+```text
 |
 ["First", "Second", "Third]
 ```
@@ -126,21 +127,23 @@ Similar to `o` but adds the empty line **above** the current line.
 `v` Visual mode (Select by character)
 
 **Before** `v` `3l`
-```
+
+```text
           ↓
 ["start", "curl", "stain", "brain", "such"]
 ```
 
 **After** (the characters between `→ ←` are selected )
 
-```
+```text
 ["start", →"cur←l", "stain", "brain", "such"]
 ```
 
 `V` Visual mode (Select by line)
 
 **Before** `V` `4j`
-```
+
+```text
           ↓
 ["start", "curl", "stain", "brain", "such"]
 ["crowd", "presence", "serious", "puzzle", "base"]
@@ -158,7 +161,7 @@ Similar to `o` but adds the empty line **above** the current line.
 
 **After** (the lines between `→ ←` are selected )
 
-```
+```text
 →["start", "curl", "stain", "brain", "such"]
 ["crowd", "presence", "serious", "puzzle", "base"]
 ["ink", "thread", "pure", "slippery", "around"]

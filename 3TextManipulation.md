@@ -13,7 +13,7 @@
 
 **Before** `d2w`
 
-```
+```text
       ↓
 Don’t look for the next opportunity.
 The one you have in hand is the opportunity. 
@@ -22,7 +22,7 @@ The one you have in hand is the opportunity.
 
 **After**
 
-```
+```text
 Don’t the next opportunity.
 The one you have in hand is the opportunity. 
 - Paul Arden
@@ -32,7 +32,7 @@ Note that `d2w` will delete from the current position. If your cursor is in the 
 
 **Before** `d2w`
 
-```
+```text
                      ↓
 Don’t look for the next opportunity.
 The one you have in hand is the opportunity. 
@@ -41,7 +41,7 @@ The one you have in hand is the opportunity.
 
 **After**
 
-```
+```text
 Don’t look for the ne.
 The one you have in hand is the opportunity. 
 - Paul Arden
@@ -52,7 +52,7 @@ This could be inconvenience as normally you will want to delete the whole word i
 
 **Before** `daw`
 
-```
+```text
                      ↓
 Don’t look for the next opportunity.
 The one you have in hand is the opportunity. 
@@ -61,7 +61,7 @@ The one you have in hand is the opportunity.
 
 **After**
 
-```
+```text
 Don’t look for the opportunity.
 The one you have in hand is the opportunity. 
 - Paul Arden
@@ -75,7 +75,7 @@ Try typing `cw` and type "test". The word `next` is now replaced with `test`.
 
 **Before** `cw`
 
-```
+```text
                    ↓
 Don’t look for the next opportunity.
 The one you have in hand is the opportunity. 
@@ -84,7 +84,7 @@ The one you have in hand is the opportunity.
 
 **After**
 
-```
+```text
 Don’t look for the test opportunity.
 The one you have in hand is the opportunity. 
 - Paul Arden
@@ -98,7 +98,7 @@ Type `yf.`, the phrase `look for the next opportunity.` will be copied. You can 
 
 **Before** `yf.`
 
-```
+```text
       ↓
 Don’t look for the next opportunity.
 The one you have in hand is the opportunity. 
@@ -107,7 +107,7 @@ The one you have in hand is the opportunity.
 
 **After**
 
-```
+```text
 Don’t llook for the next opportunity.ook for the next opportunity.
 The one you have in hand is the opportunity. 
 - Paul Arden
@@ -135,14 +135,14 @@ Put the cursor at the arrow and type `ci"`. The word inside the double quotes wi
 
 **Before** `ci"`
 
-```
+```text
             ↓
 ["First", "Second", "Third]
 ```
 
 **After**
 
-```
+```text
 ["First", "|", "Third]
 ```
 
@@ -150,14 +150,14 @@ Type  `ca"` will also delete the quotes as well as the spaces around the quotes.
 
 **Before** `ca"`
 
-```
+```text
             ↓
 ["First", "Second", "Third]
 ```
 
 **After**
 
-```
+```text
 ["First",|, "Third]
 ```
 
@@ -167,14 +167,14 @@ Type `r` place your cursor at the arrow and type `ra`. It will replace `e` with 
 
 **Before** `ra`
 
-```
+```text
             ↓
 ["First", "Second", "Third]
 ```
 
 **After**
 
-```
+```text
             ↓
 ["First", "Sacond", "Third]
 ```
@@ -183,14 +183,14 @@ Typing `x` will delete the character in current position.
 
 **Before** `x`
 
-```
+```text
             ↓
 ["First", "Second", "Third]
 ```
 
 **After**
 
-```
+```text
 ["First", "Scond", "Third]
 ```
 
